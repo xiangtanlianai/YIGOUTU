@@ -1,0 +1,11 @@
+2024-04-18 18:09:29,837 - root - INFO - {'prefix': 'SR-HGN', 'gpu': 0, 'feat': 1, 'seed': 0, 'verbose': 1, 'train_split': 0.2, 'val_split': 0.3, 'num_type_heads': 4, 'num_node_heads': 4, 'hidden_dim': 256, 'clip': 1.0, 'num_layers': 3, 'alpha': 0.5, 'epochs': 60, 'dataset': 'acm', 'input_dim': 256, 'aggregate': 'concat', 'iscuda': True, 'cluster': True, 'max_lr': 0.001, 'weight_decay': 1e-05, 'heads': 8, 'han_heads': [4], 'hh_heads': 3, 'dropout': 0.2}
+2024-04-18 18:09:32,882 - root - INFO - Training SR-HGN with #param: 35207827
+2024-04-18 18:09:36,162 - root - INFO - ARI: 0.0127 | NMI: 0.0078
+2024-04-18 18:09:36,163 - root - INFO - Epoch: 1 | LR: 0.0000 | Loss 1.0978 | Val MaF1: 0.2204 (Best: 0.2204) | Test MaF1: 0.2220 (Best: 0.2220) | MiF1: 0.4961 (Best: 0.4961)
+2024-04-18 18:09:37,123 - root - INFO - Epoch: 2 | LR: 0.0001 | Loss 1.0710 | Val MaF1: 0.2204 (Best: 0.2204) | Test MaF1: 0.2210 (Best: 0.2220) | MiF1: 0.4957 (Best: 0.4961)
+2024-04-18 18:09:38,033 - root - INFO - Epoch: 3 | LR: 0.0001 | Loss 1.0481 | Val MaF1: 0.2204 (Best: 0.2204) | Test MaF1: 0.2210 (Best: 0.2220) | MiF1: 0.4957 (Best: 0.4961)
+2024-04-18 18:09:38,945 - root - INFO - Epoch: 4 | LR: 0.0002 | Loss 1.0258 | Val MaF1: 0.2204 (Best: 0.2204) | Test MaF1: 0.2210 (Best: 0.2220) | MiF1: 0.4957 (Best: 0.4961)
+2024-04-18 18:09:39,903 - root - INFO - Epoch: 5 | LR: 0.0002 | Loss 1.0055 | Val MaF1: 0.2204 (Best: 0.2204) | Test MaF1: 0.2210 (Best: 0.2220) | MiF1: 0.4957 (Best: 0.4961)
+2024-04-18 18:09:40,810 - root - INFO - Epoch: 6 | LR: 0.0003 | Loss 0.9868 | Val MaF1: 0.2204 (Best: 0.2204) | Test MaF1: 0.2210 (Best: 0.2220) | MiF1: 0.4957 (Best: 0.4961)
+2024-04-18 18:09:41,732 - root - INFO - Epoch: 7 | LR: 0.0004 | Loss 0.9583 | Val MaF1: 0.2204 (Best: 0.2204) | Test MaF1: 0.2210 (Best: 0.2220) | MiF1: 0.4957 (Best: 0.4961)
+2024-04-18 18:09:42,732 - root - INFO - Epoch: 8 | LR: 0.0005 | Loss 0.9054 | Val MaF1: 0.2204 (Best: 0.2204) | Test MaF1: 0.2220 (Best: 0.2220) | MiF1: 0.4961 (Best: 0.4961)

@@ -1,0 +1,1117 @@
+2024-04-19 12:54:52,379 - root - INFO - {'prefix': 'SR-HGN', 'gpu': 0, 'feat': 1, 'seed': 0, 'verbose': 1, 'train_split': 0.2, 'val_split': 0.3, 'num_type_heads': 4, 'num_node_heads': 4, 'hidden_dim': 128, 'clip': 1.0, 'num_layers': 3, 'alpha': 0.5, 'epochs': 50, 'dataset': 'dblp', 'input_dim': 256, 'aggregate': 'concat', 'iscuda': True, 'cluster': True, 'max_lr': 0.001, 'weight_decay': 1e-05, 'heads': 8, 'han_heads': [4], 'hh_heads': 3, 'dropout': 0.2}
+2024-04-19 12:54:55,370 - root - INFO - Training SR-HGN with #param: 11996958
+2024-04-19 12:55:07,833 - matplotlib.pyplot - DEBUG - Loaded backend tkagg version 8.6.
+2024-04-19 12:55:07,867 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:55:07,867 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:55:07,867 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:55:07,867 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:55:07,867 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 1189
+2024-04-19 12:55:07,872 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:55:07,872 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:55:07,872 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:55:07,873 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:55:07,873 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 2994
+2024-04-19 12:55:07,892 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:55:07,892 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:55:07,892 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:55:07,893 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:55:07,893 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 374
+2024-04-19 12:55:07,894 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:55:07,895 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:55:07,895 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:55:07,895 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:55:07,895 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 286
+2024-04-19 12:55:07,896 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:55:07,897 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:55:07,897 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:55:07,897 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:55:07,897 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 263
+2024-04-19 12:55:07,899 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:55:07,899 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:55:07,899 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:55:07,899 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:55:07,899 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 387
+2024-04-19 12:55:07,901 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:55:07,901 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:55:07,901 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:55:07,901 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:55:07,901 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 436
+2024-04-19 12:55:07,902 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:55:07,902 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:55:07,903 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:55:07,903 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:55:07,903 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 351
+2024-04-19 12:55:07,904 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:55:07,904 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:55:07,904 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:55:07,904 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:55:07,904 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 364
+2024-04-19 12:55:07,907 - matplotlib.font_manager - DEBUG - findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0.
+2024-04-19 12:55:07,907 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='D:\\anaconda3\\envs\\cpf\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSerif.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-04-19 12:55:07,908 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='D:\\anaconda3\\envs\\cpf\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXGeneral.ttf', name='STIXGeneral', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-04-19 12:55:07,908 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='D:\\anaconda3\\envs\\cpf\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizFiveSymReg.ttf', name='STIXSizeFiveSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-04-19 12:55:07,909 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='D:\\anaconda3\\envs\\cpf\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXGeneralItalic.ttf', name='STIXGeneral', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2024-04-19 12:55:07,909 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='D:\\anaconda3\\envs\\cpf\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizThreeSymReg.ttf', name='STIXSizeThreeSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-04-19 12:55:07,910 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='D:\\anaconda3\\envs\\cpf\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizOneSymBol.ttf', name='STIXSizeOneSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-04-19 12:55:07,910 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='D:\\anaconda3\\envs\\cpf\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSansDisplay.ttf', name='DejaVu Sans Display', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-04-19 12:55:07,910 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='D:\\anaconda3\\envs\\cpf\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSansMono-Bold.ttf', name='DejaVu Sans Mono', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-04-19 12:55:07,911 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='D:\\anaconda3\\envs\\cpf\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans-Bold.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 0.33499999999999996
+2024-04-19 12:55:07,911 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='D:\\anaconda3\\envs\\cpf\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\cmtt10.ttf', name='cmtt10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-04-19 12:55:07,911 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='D:\\anaconda3\\envs\\cpf\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSerif-BoldItalic.ttf', name='DejaVu Serif', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2024-04-19 12:55:07,912 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='D:\\anaconda3\\envs\\cpf\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSansMono.ttf', name='DejaVu Sans Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-04-19 12:55:07,912 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='D:\\anaconda3\\envs\\cpf\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\cmb10.ttf', name='cmb10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-04-19 12:55:07,913 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='D:\\anaconda3\\envs\\cpf\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\cmsy10.ttf', name='cmsy10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-04-19 12:55:07,913 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='D:\\anaconda3\\envs\\cpf\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSansMono-BoldOblique.ttf', name='DejaVu Sans Mono', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2024-04-19 12:55:07,913 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='D:\\anaconda3\\envs\\cpf\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizOneSymReg.ttf', name='STIXSizeOneSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-04-19 12:55:07,914 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='D:\\anaconda3\\envs\\cpf\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 0.05
+2024-04-19 12:55:07,914 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='D:\\anaconda3\\envs\\cpf\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizTwoSymReg.ttf', name='STIXSizeTwoSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-04-19 12:55:07,914 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='D:\\anaconda3\\envs\\cpf\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizFourSymReg.ttf', name='STIXSizeFourSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-04-19 12:55:07,915 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='D:\\anaconda3\\envs\\cpf\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\cmss10.ttf', name='cmss10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-04-19 12:55:07,915 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='D:\\anaconda3\\envs\\cpf\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXNonUniIta.ttf', name='STIXNonUnicode', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2024-04-19 12:55:07,915 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='D:\\anaconda3\\envs\\cpf\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizFourSymBol.ttf', name='STIXSizeFourSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-04-19 12:55:07,916 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='D:\\anaconda3\\envs\\cpf\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\cmex10.ttf', name='cmex10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-04-19 12:55:07,916 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='D:\\anaconda3\\envs\\cpf\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\cmr10.ttf', name='cmr10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-04-19 12:55:07,917 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='D:\\anaconda3\\envs\\cpf\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans-BoldOblique.ttf', name='DejaVu Sans', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 1.335
+2024-04-19 12:55:07,917 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='D:\\anaconda3\\envs\\cpf\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXGeneralBolIta.ttf', name='STIXGeneral', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2024-04-19 12:55:07,918 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='D:\\anaconda3\\envs\\cpf\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans-Oblique.ttf', name='DejaVu Sans', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 1.05
+2024-04-19 12:55:07,918 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='D:\\anaconda3\\envs\\cpf\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSerifDisplay.ttf', name='DejaVu Serif Display', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-04-19 12:55:07,918 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='D:\\anaconda3\\envs\\cpf\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizThreeSymBol.ttf', name='STIXSizeThreeSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-04-19 12:55:07,919 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='D:\\anaconda3\\envs\\cpf\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSansMono-Oblique.ttf', name='DejaVu Sans Mono', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2024-04-19 12:55:07,919 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='D:\\anaconda3\\envs\\cpf\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXNonUniBol.ttf', name='STIXNonUnicode', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-04-19 12:55:07,920 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='D:\\anaconda3\\envs\\cpf\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSerif-Bold.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-04-19 12:55:07,920 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='D:\\anaconda3\\envs\\cpf\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXNonUniBolIta.ttf', name='STIXNonUnicode', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2024-04-19 12:55:07,920 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='D:\\anaconda3\\envs\\cpf\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizTwoSymBol.ttf', name='STIXSizeTwoSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-04-19 12:55:07,921 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='D:\\anaconda3\\envs\\cpf\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSerif-Italic.ttf', name='DejaVu Serif', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2024-04-19 12:55:07,921 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='D:\\anaconda3\\envs\\cpf\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXGeneralBol.ttf', name='STIXGeneral', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-04-19 12:55:07,921 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='D:\\anaconda3\\envs\\cpf\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXNonUni.ttf', name='STIXNonUnicode', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-04-19 12:55:07,921 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='D:\\anaconda3\\envs\\cpf\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\cmmi10.ttf', name='cmmi10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-04-19 12:55:07,922 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\seguiemj.ttf', name='Segoe UI Emoji', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-04-19 12:55:07,922 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\arial.ttf', name='Arial', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 6.413636363636363
+2024-04-19 12:55:07,922 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\tahoma.ttf', name='Tahoma', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-04-19 12:55:07,923 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\cambriaz.ttf', name='Cambria', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2024-04-19 12:55:07,923 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\seguisym.ttf', name='Segoe UI Symbol', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-04-19 12:55:07,923 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\malgunsl.ttf', name='Malgun Gothic', style='normal', variant='normal', weight=300, stretch='normal', size='scalable')) = 10.145
+2024-04-19 12:55:07,924 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\constani.ttf', name='Constantia', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2024-04-19 12:55:07,924 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\malgunbd.ttf', name='Malgun Gothic', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-04-19 12:55:07,924 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\YuGothB.ttc', name='Yu Gothic', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-04-19 12:55:07,924 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\georgia.ttf', name='Georgia', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-04-19 12:55:07,925 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\calibril.ttf', name='Calibri', style='normal', variant='normal', weight=300, stretch='normal', size='scalable')) = 10.145
+2024-04-19 12:55:07,925 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\georgiaz.ttf', name='Georgia', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2024-04-19 12:55:07,925 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\arialbd.ttf', name='Arial', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 6.698636363636363
+2024-04-19 12:55:07,926 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\LeelUIsl.ttf', name='Leelawadee UI', style='normal', variant='normal', weight=350, stretch='normal', size='scalable')) = 10.0975
+2024-04-19 12:55:07,926 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\georgiab.ttf', name='Georgia', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-04-19 12:55:07,926 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\timesbd.ttf', name='Times New Roman', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-04-19 12:55:07,926 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Nirmala.ttf', name='Nirmala UI', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-04-19 12:55:07,927 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\ebrimabd.ttf', name='Ebrima', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-04-19 12:55:07,927 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\webdings.ttf', name='Webdings', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-04-19 12:55:07,927 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\arialbi.ttf', name='Arial', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 7.698636363636363
+2024-04-19 12:55:07,928 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\simsun.ttc', name='SimSun', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-04-19 12:55:07,928 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\palabi.ttf', name='Palatino Linotype', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2024-04-19 12:55:07,928 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\segoeuii.ttf', name='Segoe UI', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2024-04-19 12:55:07,929 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\javatext.ttf', name='Javanese Text', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-04-19 12:55:07,929 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\ntailub.ttf', name='Microsoft New Tai Lue', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-04-19 12:55:07,929 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\calibrili.ttf', name='Calibri', style='italic', variant='normal', weight=300, stretch='normal', size='scalable')) = 11.145
+2024-04-19 12:55:07,930 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\pala.ttf', name='Palatino Linotype', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-04-19 12:55:07,930 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Inkfree.ttf', name='Ink Free', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-04-19 12:55:07,930 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\courbi.ttf', name='Courier New', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2024-04-19 12:55:07,931 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Sitka.ttc', name='Sitka Small', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-04-19 12:55:07,931 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\YuGothR.ttc', name='Yu Gothic', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-04-19 12:55:07,931 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Candaraz.ttf', name='Candara', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2024-04-19 12:55:07,932 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msyhl.ttc', name='Microsoft YaHei', style='normal', variant='normal', weight=290, stretch='normal', size='scalable')) = 10.1545
+2024-04-19 12:55:07,932 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\segoeuiz.ttf', name='Segoe UI', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2024-04-19 12:55:07,932 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\calibriz.ttf', name='Calibri', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2024-04-19 12:55:07,933 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Candara.ttf', name='Candara', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-04-19 12:55:07,933 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\tahomabd.ttf', name='Tahoma', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-04-19 12:55:07,933 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\NirmalaS.ttf', name='Nirmala UI', style='normal', variant='normal', weight=350, stretch='normal', size='scalable')) = 10.0975
+2024-04-19 12:55:07,934 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\ariali.ttf', name='Arial', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 7.413636363636363
+2024-04-19 12:55:07,934 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\comic.ttf', name='Comic Sans MS', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-04-19 12:55:07,934 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\NirmalaB.ttf', name='Nirmala UI', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-04-19 12:55:07,934 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\seguisli.ttf', name='Segoe UI', style='italic', variant='normal', weight=350, stretch='normal', size='scalable')) = 11.0975
+2024-04-19 12:55:07,935 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\times.ttf', name='Times New Roman', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-04-19 12:55:07,935 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\symbol.ttf', name='Symbol', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-04-19 12:55:07,935 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\SitkaZ.ttc', name='Sitka Small', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2024-04-19 12:55:07,935 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\LeelawUI.ttf', name='Leelawadee UI', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-04-19 12:55:07,936 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\courbd.ttf', name='Courier New', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-04-19 12:55:07,936 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\seguihis.ttf', name='Segoe UI Historic', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-04-19 12:55:07,936 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\ntailu.ttf', name='Microsoft New Tai Lue', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-04-19 12:55:07,936 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\seguibl.ttf', name='Segoe UI', style='normal', variant='normal', weight=900, stretch='normal', size='scalable')) = 10.525
+2024-04-19 12:55:07,937 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\consolai.ttf', name='Consolas', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2024-04-19 12:55:07,937 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msjhbd.ttc', name='Microsoft JhengHei', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-04-19 12:55:07,937 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\monbaiti.ttf', name='Mongolian Baiti', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-04-19 12:55:07,937 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Deng.ttf', name='DengXian', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-04-19 12:55:07,938 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\georgiai.ttf', name='Georgia', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2024-04-19 12:55:07,938 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\holomdl2.ttf', name='HoloLens MDL2 Assets', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-04-19 12:55:07,938 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Gabriola.ttf', name='Gabriola', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-04-19 12:55:07,939 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\sylfaen.ttf', name='Sylfaen', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-04-19 12:55:07,939 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\mvboli.ttf', name='MV Boli', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-04-19 12:55:07,939 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\couri.ttf', name='Courier New', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2024-04-19 12:55:07,939 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\segoeui.ttf', name='Segoe UI', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-04-19 12:55:07,940 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\taileb.ttf', name='Microsoft Tai Le', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-04-19 12:55:07,940 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\segoeuib.ttf', name='Segoe UI', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-04-19 12:55:07,940 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\LeelaUIb.ttf', name='Leelawadee UI', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-04-19 12:55:07,940 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\consolab.ttf', name='Consolas', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-04-19 12:55:07,941 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\trebuc.ttf', name='Trebuchet MS', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-04-19 12:55:07,941 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\micross.ttf', name='Microsoft Sans Serif', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-04-19 12:55:07,941 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msyh.ttc', name='Microsoft YaHei', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-04-19 12:55:07,941 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\segoesc.ttf', name='Segoe Script', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-04-19 12:55:07,942 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\trebucbd.ttf', name='Trebuchet MS', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-04-19 12:55:07,942 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\corbelz.ttf', name='Corbel', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2024-04-19 12:55:07,943 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msgothic.ttc', name='MS Gothic', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-04-19 12:55:07,943 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\consola.ttf', name='Consolas', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-04-19 12:55:07,943 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\verdanab.ttf', name='Verdana', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 3.9713636363636367
+2024-04-19 12:55:07,944 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\timesi.ttf', name='Times New Roman', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2024-04-19 12:55:07,944 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msjh.ttc', name='Microsoft JhengHei', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-04-19 12:55:07,944 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\mmrtext.ttf', name='Myanmar Text', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-04-19 12:55:07,945 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\bahnschrift.ttf', name='Bahnschrift', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-04-19 12:55:07,945 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\corbel.ttf', name='Corbel', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-04-19 12:55:07,945 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\comicbd.ttf', name='Comic Sans MS', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-04-19 12:55:07,945 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\calibrii.ttf', name='Calibri', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2024-04-19 12:55:07,946 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msyhbd.ttc', name='Microsoft YaHei', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-04-19 12:55:07,946 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\comicz.ttf', name='Comic Sans MS', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2024-04-19 12:55:07,946 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\l_10646.ttf', name='Lucida Sans Unicode', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-04-19 12:55:07,946 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msjhl.ttc', name='Microsoft JhengHei', style='normal', variant='normal', weight=290, stretch='normal', size='scalable')) = 10.1545
+2024-04-19 12:55:07,947 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\simhei.ttf', name='SimHei', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-04-19 12:55:07,947 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Candaral.ttf', name='Candara', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-04-19 12:55:07,947 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\comici.ttf', name='Comic Sans MS', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2024-04-19 12:55:07,948 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\impact.ttf', name='Impact', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-04-19 12:55:07,948 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\trebucit.ttf', name='Trebuchet MS', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2024-04-19 12:55:07,948 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\cambriai.ttf', name='Cambria', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2024-04-19 12:55:07,949 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\trebucbi.ttf', name='Trebuchet MS', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2024-04-19 12:55:07,949 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\corbelb.ttf', name='Corbel', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-04-19 12:55:07,949 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\calibrib.ttf', name='Calibri', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-04-19 12:55:07,949 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\calibri.ttf', name='Calibri', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-04-19 12:55:07,950 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\seguisb.ttf', name='Segoe UI', style='normal', variant='normal', weight=600, stretch='normal', size='scalable')) = 10.24
+2024-04-19 12:55:07,950 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\cour.ttf', name='Courier New', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-04-19 12:55:07,950 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\seguibli.ttf', name='Segoe UI', style='italic', variant='normal', weight=900, stretch='normal', size='scalable')) = 11.525
+2024-04-19 12:55:07,951 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\himalaya.ttf', name='Microsoft Himalaya', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-04-19 12:55:07,951 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\verdanaz.ttf', name='Verdana', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 4.971363636363637
+2024-04-19 12:55:07,951 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\gadugi.ttf', name='Gadugi', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-04-19 12:55:07,951 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\verdana.ttf', name='Verdana', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 3.6863636363636365
+2024-04-19 12:55:07,952 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\SitkaI.ttc', name='Sitka Small', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2024-04-19 12:55:07,952 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\palab.ttf', name='Palatino Linotype', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-04-19 12:55:07,952 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\seguili.ttf', name='Segoe UI', style='italic', variant='normal', weight=300, stretch='normal', size='scalable')) = 11.145
+2024-04-19 12:55:07,952 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Candarai.ttf', name='Candara', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2024-04-19 12:55:07,953 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\corbell.ttf', name='Corbel', style='normal', variant='normal', weight=300, stretch='normal', size='scalable')) = 10.145
+2024-04-19 12:55:07,953 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\lucon.ttf', name='Lucida Console', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-04-19 12:55:07,953 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\seguisbi.ttf', name='Segoe UI', style='italic', variant='normal', weight=600, stretch='normal', size='scalable')) = 11.24
+2024-04-19 12:55:07,954 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\constanb.ttf', name='Constantia', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-04-19 12:55:07,954 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Candarali.ttf', name='Candara', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2024-04-19 12:55:07,954 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Candarab.ttf', name='Candara', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-04-19 12:55:07,954 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\gadugib.ttf', name='Gadugi', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-04-19 12:55:07,955 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\ebrima.ttf', name='Ebrima', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-04-19 12:55:07,955 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\YuGothL.ttc', name='Yu Gothic', style='normal', variant='normal', weight=300, stretch='normal', size='scalable')) = 10.145
+2024-04-19 12:55:07,955 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\framdit.ttf', name='Franklin Gothic Medium', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2024-04-19 12:55:07,956 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Dengb.ttf', name='DengXian', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-04-19 12:55:07,956 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\segoeuil.ttf', name='Segoe UI', style='normal', variant='normal', weight=300, stretch='normal', size='scalable')) = 10.145
+2024-04-19 12:55:07,956 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\wingding.ttf', name='Wingdings', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-04-19 12:55:07,957 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\corbelli.ttf', name='Corbel', style='italic', variant='normal', weight=300, stretch='normal', size='scalable')) = 11.145
+2024-04-19 12:55:07,957 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Dengl.ttf', name='DengXian', style='normal', variant='normal', weight=300, stretch='normal', size='scalable')) = 10.145
+2024-04-19 12:55:07,957 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msyi.ttf', name='Microsoft Yi Baiti', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-04-19 12:55:07,957 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\constan.ttf', name='Constantia', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-04-19 12:55:07,958 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\cambriab.ttf', name='Cambria', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-04-19 12:55:07,958 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\mmrtextb.ttf', name='Myanmar Text', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-04-19 12:55:07,958 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\constanz.ttf', name='Constantia', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2024-04-19 12:55:07,959 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\segoescb.ttf', name='Segoe Script', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-04-19 12:55:07,959 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\segoepr.ttf', name='Segoe Print', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-04-19 12:55:07,959 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\simsunb.ttf', name='SimSun-ExtB', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-04-19 12:55:07,960 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\framd.ttf', name='Franklin Gothic Medium', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-04-19 12:55:07,960 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\simfang.ttf', name='FangSong', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-04-19 12:55:07,960 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\segmdl2.ttf', name='Segoe MDL2 Assets', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-04-19 12:55:07,960 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\verdanai.ttf', name='Verdana', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 4.6863636363636365
+2024-04-19 12:55:07,961 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\timesbi.ttf', name='Times New Roman', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2024-04-19 12:55:07,961 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\SitkaB.ttc', name='Sitka Small', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-04-19 12:55:07,961 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\taile.ttf', name='Microsoft Tai Le', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-04-19 12:55:07,961 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\corbeli.ttf', name='Corbel', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2024-04-19 12:55:07,962 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\ariblk.ttf', name='Arial', style='normal', variant='normal', weight=900, stretch='normal', size='scalable')) = 6.888636363636364
+2024-04-19 12:55:07,962 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\phagspab.ttf', name='Microsoft PhagsPa', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-04-19 12:55:07,962 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\cambria.ttc', name='Cambria', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-04-19 12:55:07,962 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\phagspa.ttf', name='Microsoft PhagsPa', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-04-19 12:55:07,963 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\segoeuisl.ttf', name='Segoe UI', style='normal', variant='normal', weight=350, stretch='normal', size='scalable')) = 10.0975
+2024-04-19 12:55:07,963 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\palai.ttf', name='Palatino Linotype', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2024-04-19 12:55:07,963 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\YuGothM.ttc', name='Yu Gothic', style='normal', variant='normal', weight=500, stretch='normal', size='scalable')) = 10.145
+2024-04-19 12:55:07,964 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\malgun.ttf', name='Malgun Gothic', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-04-19 12:55:07,964 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\simkai.ttf', name='KaiTi', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-04-19 12:55:07,964 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\consolaz.ttf', name='Consolas', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2024-04-19 12:55:07,964 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\mingliub.ttc', name='MingLiU-ExtB', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-04-19 12:55:07,965 - matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\segoeprb.ttf', name='Segoe Print', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-04-19 12:55:07,965 - matplotlib.font_manager - DEBUG - findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('D:\\anaconda3\\envs\\cpf\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans.ttf') with score of 0.050000.
+2024-04-19 12:55:15,277 - root - INFO - ARI: 0.0797 | NMI: 0.0949
+2024-04-19 12:55:15,277 - root - INFO - Epoch: 1 | LR: 0.0001 | Loss 1.3911 | Val MaF1: 0.1520 (Best: 0.1520) | Test MaF1: 0.1981 (Best: 0.1981) | MiF1: 0.2629 (Best: 0.2629)
+2024-04-19 12:55:25,118 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:55:25,118 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:55:25,118 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:55:25,119 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:55:25,119 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 1189
+2024-04-19 12:55:25,122 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:55:25,122 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:55:25,122 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:55:25,122 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:55:25,123 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 2994
+2024-04-19 12:55:25,130 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:55:25,131 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:55:25,131 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:55:25,131 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:55:25,131 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 374
+2024-04-19 12:55:25,132 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:55:25,133 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:55:25,133 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:55:25,133 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:55:25,133 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 286
+2024-04-19 12:55:25,134 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:55:25,135 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:55:25,135 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:55:25,135 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:55:25,135 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 263
+2024-04-19 12:55:25,137 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:55:25,137 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:55:25,137 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:55:25,137 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:55:25,137 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 387
+2024-04-19 12:55:25,139 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:55:25,139 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:55:25,139 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:55:25,139 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:55:25,139 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 436
+2024-04-19 12:55:25,141 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:55:25,141 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:55:25,141 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:55:25,141 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:55:25,141 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 351
+2024-04-19 12:55:25,143 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:55:25,143 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:55:25,143 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:55:25,143 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:55:25,144 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 364
+2024-04-19 12:55:27,472 - root - INFO - ARI: 0.0831 | NMI: 0.0992
+2024-04-19 12:55:27,473 - root - INFO - Epoch: 2 | LR: 0.0001 | Loss 1.3867 | Val MaF1: 0.2628 (Best: 0.2628) | Test MaF1: 0.2798 (Best: 0.2798) | MiF1: 0.3464 (Best: 0.3464)
+2024-04-19 12:55:37,102 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:55:37,102 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:55:37,102 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:55:37,102 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:55:37,103 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 1189
+2024-04-19 12:55:37,106 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:55:37,106 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:55:37,106 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:55:37,107 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:55:37,107 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 2994
+2024-04-19 12:55:37,114 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:55:37,115 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:55:37,115 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:55:37,115 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:55:37,115 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 374
+2024-04-19 12:55:37,117 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:55:37,117 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:55:37,117 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:55:37,117 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:55:37,118 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 286
+2024-04-19 12:55:37,119 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:55:37,119 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:55:37,119 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:55:37,119 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:55:37,120 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 263
+2024-04-19 12:55:37,121 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:55:37,121 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:55:37,121 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:55:37,122 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:55:37,122 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 387
+2024-04-19 12:55:37,123 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:55:37,123 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:55:37,124 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:55:37,124 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:55:37,124 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 436
+2024-04-19 12:55:37,125 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:55:37,125 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:55:37,126 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:55:37,126 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:55:37,126 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 351
+2024-04-19 12:55:37,127 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:55:37,127 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:55:37,127 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:55:37,128 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:55:37,128 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 364
+2024-04-19 12:55:39,077 - root - INFO - ARI: 0.0822 | NMI: 0.0994
+2024-04-19 12:55:39,077 - root - INFO - Epoch: 3 | LR: 0.0001 | Loss 1.3801 | Val MaF1: 0.5311 (Best: 0.5311) | Test MaF1: 0.5240 (Best: 0.5240) | MiF1: 0.5455 (Best: 0.5455)
+2024-04-19 12:55:48,927 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:55:48,928 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:55:48,928 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:55:48,928 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:55:48,928 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 1189
+2024-04-19 12:55:48,931 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:55:48,932 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:55:48,932 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:55:48,932 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:55:48,932 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 2994
+2024-04-19 12:55:48,941 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:55:48,941 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:55:48,941 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:55:48,941 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:55:48,941 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 374
+2024-04-19 12:55:48,943 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:55:48,943 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:55:48,943 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:55:48,944 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:55:48,944 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 286
+2024-04-19 12:55:48,945 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:55:48,945 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:55:48,946 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:55:48,946 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:55:48,946 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 263
+2024-04-19 12:55:48,947 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:55:48,948 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:55:48,948 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:55:48,948 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:55:48,948 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 387
+2024-04-19 12:55:48,949 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:55:48,950 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:55:48,950 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:55:48,950 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:55:48,950 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 436
+2024-04-19 12:55:48,951 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:55:48,952 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:55:48,952 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:55:48,952 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:55:48,952 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 351
+2024-04-19 12:55:48,953 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:55:48,953 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:55:48,954 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:55:48,954 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:55:48,954 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 364
+2024-04-19 12:56:05,944 - root - INFO - ARI: 0.0922 | NMI: 0.1088
+2024-04-19 12:56:05,945 - root - INFO - Epoch: 4 | LR: 0.0002 | Loss 1.3709 | Val MaF1: 0.6166 (Best: 0.6166) | Test MaF1: 0.6023 (Best: 0.6023) | MiF1: 0.7199 (Best: 0.7199)
+2024-04-19 12:56:07,096 - root - INFO - Epoch: 5 | LR: 0.0003 | Loss 1.3555 | Val MaF1: 0.5392 (Best: 0.6166) | Test MaF1: 0.5363 (Best: 0.6023) | MiF1: 0.6388 (Best: 0.7199)
+2024-04-19 12:56:08,126 - root - INFO - Epoch: 6 | LR: 0.0004 | Loss 1.3372 | Val MaF1: 0.4609 (Best: 0.6166) | Test MaF1: 0.4865 (Best: 0.6023) | MiF1: 0.5799 (Best: 0.7199)
+2024-04-19 12:56:09,158 - root - INFO - Epoch: 7 | LR: 0.0005 | Loss 1.3121 | Val MaF1: 0.4548 (Best: 0.6166) | Test MaF1: 0.4969 (Best: 0.6023) | MiF1: 0.5897 (Best: 0.7199)
+2024-04-19 12:56:10,185 - root - INFO - Epoch: 8 | LR: 0.0006 | Loss 1.2851 | Val MaF1: 0.5287 (Best: 0.6166) | Test MaF1: 0.5551 (Best: 0.6023) | MiF1: 0.6585 (Best: 0.7199)
+2024-04-19 12:56:19,326 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:56:19,326 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:56:19,326 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:56:19,327 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:56:19,327 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 1189
+2024-04-19 12:56:19,330 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:56:19,330 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:56:19,330 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:56:19,330 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:56:19,331 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 2994
+2024-04-19 12:56:19,338 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:56:19,339 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:56:19,339 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:56:19,339 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:56:19,339 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 374
+2024-04-19 12:56:19,341 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:56:19,341 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:56:19,341 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:56:19,342 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:56:19,342 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 286
+2024-04-19 12:56:19,343 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:56:19,343 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:56:19,344 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:56:19,344 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:56:19,344 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 263
+2024-04-19 12:56:19,345 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:56:19,346 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:56:19,346 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:56:19,346 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:56:19,346 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 387
+2024-04-19 12:56:19,348 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:56:19,348 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:56:19,348 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:56:19,348 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:56:19,348 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 436
+2024-04-19 12:56:19,350 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:56:19,350 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:56:19,350 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:56:19,350 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:56:19,350 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 351
+2024-04-19 12:56:19,352 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:56:19,352 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:56:19,352 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:56:19,352 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:56:19,352 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 364
+2024-04-19 12:56:21,694 - root - INFO - ARI: 0.4715 | NMI: 0.4727
+2024-04-19 12:56:21,694 - root - INFO - Epoch: 9 | LR: 0.0007 | Loss 1.2497 | Val MaF1: 0.5927 (Best: 0.5927) | Test MaF1: 0.6078 (Best: 0.6078) | MiF1: 0.7224 (Best: 0.7224)
+2024-04-19 12:56:30,971 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:56:30,972 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:56:30,972 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:56:30,972 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:56:30,973 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 1189
+2024-04-19 12:56:30,976 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:56:30,976 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:56:30,976 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:56:30,976 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:56:30,977 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 2994
+2024-04-19 12:56:30,985 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:56:30,986 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:56:30,986 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:56:30,986 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:56:30,986 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 374
+2024-04-19 12:56:30,988 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:56:30,988 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:56:30,988 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:56:30,988 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:56:30,988 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 286
+2024-04-19 12:56:30,990 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:56:30,990 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:56:30,990 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:56:30,990 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:56:30,991 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 263
+2024-04-19 12:56:30,992 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:56:30,992 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:56:30,993 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:56:30,993 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:56:30,993 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 387
+2024-04-19 12:56:30,994 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:56:30,994 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:56:30,995 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:56:30,995 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:56:30,995 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 436
+2024-04-19 12:56:30,996 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:56:30,997 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:56:30,997 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:56:30,997 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:56:30,997 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 351
+2024-04-19 12:56:30,998 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:56:30,999 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:56:30,999 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:56:30,999 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:56:30,999 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 364
+2024-04-19 12:56:32,583 - root - INFO - ARI: 0.5013 | NMI: 0.5047
+2024-04-19 12:56:32,583 - root - INFO - Epoch: 10 | LR: 0.0008 | Loss 1.2040 | Val MaF1: 0.6408 (Best: 0.6408) | Test MaF1: 0.6407 (Best: 0.6407) | MiF1: 0.7568 (Best: 0.7568)
+2024-04-19 12:56:41,613 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:56:41,614 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:56:41,614 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:56:41,614 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:56:41,614 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 1189
+2024-04-19 12:56:41,617 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:56:41,617 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:56:41,618 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:56:41,618 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:56:41,618 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 2994
+2024-04-19 12:56:41,626 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:56:41,626 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:56:41,626 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:56:41,626 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:56:41,627 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 374
+2024-04-19 12:56:41,628 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:56:41,628 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:56:41,629 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:56:41,629 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:56:41,629 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 286
+2024-04-19 12:56:41,630 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:56:41,630 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:56:41,631 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:56:41,631 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:56:41,631 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 263
+2024-04-19 12:56:41,633 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:56:41,633 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:56:41,633 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:56:41,633 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:56:41,634 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 387
+2024-04-19 12:56:41,635 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:56:41,635 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:56:41,635 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:56:41,636 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:56:41,636 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 436
+2024-04-19 12:56:41,637 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:56:41,637 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:56:41,638 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:56:41,638 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:56:41,638 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 351
+2024-04-19 12:56:41,639 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:56:41,639 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:56:41,640 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:56:41,640 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:56:41,640 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 364
+2024-04-19 12:56:46,693 - root - INFO - ARI: 0.5163 | NMI: 0.5214
+2024-04-19 12:56:46,693 - root - INFO - Epoch: 11 | LR: 0.0009 | Loss 1.1437 | Val MaF1: 0.8002 (Best: 0.8002) | Test MaF1: 0.7977 (Best: 0.7977) | MiF1: 0.8378 (Best: 0.8378)
+2024-04-19 12:56:55,763 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:56:55,763 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:56:55,764 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:56:55,764 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:56:55,764 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 1189
+2024-04-19 12:56:55,767 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:56:55,767 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:56:55,767 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:56:55,768 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:56:55,768 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 2994
+2024-04-19 12:56:55,776 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:56:55,777 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:56:55,777 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:56:55,777 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:56:55,777 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 374
+2024-04-19 12:56:55,779 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:56:55,779 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:56:55,779 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:56:55,779 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:56:55,779 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 286
+2024-04-19 12:56:55,781 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:56:55,781 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:56:55,781 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:56:55,781 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:56:55,781 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 263
+2024-04-19 12:56:55,783 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:56:55,783 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:56:55,783 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:56:55,783 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:56:55,784 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 387
+2024-04-19 12:56:55,785 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:56:55,785 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:56:55,785 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:56:55,786 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:56:55,786 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 436
+2024-04-19 12:56:55,787 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:56:55,787 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:56:55,787 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:56:55,788 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:56:55,788 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 351
+2024-04-19 12:56:55,789 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:56:55,789 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:56:55,790 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:56:55,790 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:56:55,790 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 364
+2024-04-19 12:56:59,090 - root - INFO - ARI: 0.5301 | NMI: 0.5358
+2024-04-19 12:56:59,091 - root - INFO - Epoch: 12 | LR: 0.0010 | Loss 1.0751 | Val MaF1: 0.8754 (Best: 0.8754) | Test MaF1: 0.8864 (Best: 0.8864) | MiF1: 0.8968 (Best: 0.8968)
+2024-04-19 12:57:07,828 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:57:07,828 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:57:07,828 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:57:07,828 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:57:07,829 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 1189
+2024-04-19 12:57:07,832 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:57:07,832 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:57:07,832 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:57:07,832 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:57:07,833 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 2994
+2024-04-19 12:57:07,839 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:57:07,840 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:57:07,840 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:57:07,840 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:57:07,840 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 374
+2024-04-19 12:57:07,842 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:57:07,842 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:57:07,842 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:57:07,842 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:57:07,842 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 286
+2024-04-19 12:57:07,843 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:57:07,844 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:57:07,844 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:57:07,844 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:57:07,844 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 263
+2024-04-19 12:57:07,845 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:57:07,846 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:57:07,846 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:57:07,846 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:57:07,846 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 387
+2024-04-19 12:57:07,848 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:57:07,848 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:57:07,848 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:57:07,848 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:57:07,848 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 436
+2024-04-19 12:57:07,850 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:57:07,850 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:57:07,850 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:57:07,850 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:57:07,851 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 351
+2024-04-19 12:57:07,852 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:57:07,852 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:57:07,852 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:57:07,852 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:57:07,853 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 364
+2024-04-19 12:57:11,753 - root - INFO - ARI: 0.7854 | NMI: 0.7203
+2024-04-19 12:57:11,753 - root - INFO - Epoch: 13 | LR: 0.0010 | Loss 1.0069 | Val MaF1: 0.8968 (Best: 0.8968) | Test MaF1: 0.9039 (Best: 0.9039) | MiF1: 0.9091 (Best: 0.9091)
+2024-04-19 12:57:20,568 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:57:20,568 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:57:20,569 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:57:20,569 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:57:20,569 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 1189
+2024-04-19 12:57:20,572 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:57:20,572 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:57:20,572 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:57:20,573 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:57:20,573 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 2994
+2024-04-19 12:57:20,581 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:57:20,581 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:57:20,581 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:57:20,581 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:57:20,582 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 374
+2024-04-19 12:57:20,583 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:57:20,584 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:57:20,584 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:57:20,584 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:57:20,584 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 286
+2024-04-19 12:57:20,585 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:57:20,586 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:57:20,586 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:57:20,586 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:57:20,586 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 263
+2024-04-19 12:57:20,587 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:57:20,588 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:57:20,588 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:57:20,588 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:57:20,588 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 387
+2024-04-19 12:57:20,589 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:57:20,590 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:57:20,590 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:57:20,590 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:57:20,590 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 436
+2024-04-19 12:57:20,591 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:57:20,592 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:57:20,592 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:57:20,592 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:57:20,592 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 351
+2024-04-19 12:57:20,593 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:57:20,594 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:57:20,594 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:57:20,594 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:57:20,594 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 364
+2024-04-19 12:57:23,329 - root - INFO - ARI: 0.8117 | NMI: 0.7492
+2024-04-19 12:57:23,330 - root - INFO - Epoch: 14 | LR: 0.0010 | Loss 0.9391 | Val MaF1: 0.9080 (Best: 0.9080) | Test MaF1: 0.9107 (Best: 0.9107) | MiF1: 0.9165 (Best: 0.9165)
+2024-04-19 12:57:24,427 - root - INFO - Epoch: 15 | LR: 0.0010 | Loss 0.8733 | Val MaF1: 0.9164 (Best: 0.9080) | Test MaF1: 0.9027 (Best: 0.9107) | MiF1: 0.9091 (Best: 0.9165)
+2024-04-19 12:57:33,113 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:57:33,113 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:57:33,114 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:57:33,114 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:57:33,114 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 1189
+2024-04-19 12:57:33,117 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:57:33,117 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:57:33,117 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:57:33,118 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:57:33,118 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 2994
+2024-04-19 12:57:33,124 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:57:33,125 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:57:33,125 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:57:33,125 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:57:33,125 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 374
+2024-04-19 12:57:33,127 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:57:33,127 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:57:33,127 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:57:33,127 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:57:33,127 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 286
+2024-04-19 12:57:33,129 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:57:33,129 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:57:33,129 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:57:33,129 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:57:33,129 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 263
+2024-04-19 12:57:33,131 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:57:33,131 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:57:33,131 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:57:33,132 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:57:33,132 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 387
+2024-04-19 12:57:33,133 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:57:33,133 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:57:33,134 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:57:33,134 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:57:33,134 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 436
+2024-04-19 12:57:33,135 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:57:33,135 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:57:33,136 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:57:33,136 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:57:33,136 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 351
+2024-04-19 12:57:33,137 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:57:33,137 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:57:33,138 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:57:33,138 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:57:33,138 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 364
+2024-04-19 12:57:47,520 - root - INFO - ARI: 0.8346 | NMI: 0.7764
+2024-04-19 12:57:47,521 - root - INFO - Epoch: 16 | LR: 0.0010 | Loss 0.8194 | Val MaF1: 0.9141 (Best: 0.9141) | Test MaF1: 0.9154 (Best: 0.9154) | MiF1: 0.9214 (Best: 0.9214)
+2024-04-19 12:57:56,443 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:57:56,443 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:57:56,443 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:57:56,444 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:57:56,444 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 1189
+2024-04-19 12:57:56,447 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:57:56,447 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:57:56,447 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:57:56,447 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:57:56,448 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 2994
+2024-04-19 12:57:56,457 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:57:56,457 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:57:56,457 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:57:56,458 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:57:56,458 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 374
+2024-04-19 12:57:56,459 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:57:56,459 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:57:56,460 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:57:56,460 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:57:56,460 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 286
+2024-04-19 12:57:56,461 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:57:56,462 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:57:56,462 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:57:56,462 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:57:56,462 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 263
+2024-04-19 12:57:56,464 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:57:56,464 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:57:56,464 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:57:56,464 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:57:56,465 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 387
+2024-04-19 12:57:56,466 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:57:56,466 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:57:56,466 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:57:56,466 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:57:56,466 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 436
+2024-04-19 12:57:56,468 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:57:56,468 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:57:56,468 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:57:56,468 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:57:56,469 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 351
+2024-04-19 12:57:56,470 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:57:56,470 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:57:56,470 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:57:56,470 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:57:56,471 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 364
+2024-04-19 12:57:59,207 - root - INFO - ARI: 0.8442 | NMI: 0.7882
+2024-04-19 12:57:59,207 - root - INFO - Epoch: 17 | LR: 0.0010 | Loss 0.7779 | Val MaF1: 0.9347 (Best: 0.9347) | Test MaF1: 0.9269 (Best: 0.9269) | MiF1: 0.9312 (Best: 0.9312)
+2024-04-19 12:58:08,132 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:58:08,132 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:58:08,133 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:58:08,133 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:58:08,133 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 1189
+2024-04-19 12:58:08,136 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:58:08,136 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:58:08,137 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:58:08,137 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:58:08,137 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 2994
+2024-04-19 12:58:08,145 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:58:08,145 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:58:08,145 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:58:08,146 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:58:08,146 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 374
+2024-04-19 12:58:08,147 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:58:08,147 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:58:08,148 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:58:08,148 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:58:08,148 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 286
+2024-04-19 12:58:08,149 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:58:08,150 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:58:08,150 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:58:08,150 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:58:08,150 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 263
+2024-04-19 12:58:08,151 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:58:08,152 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:58:08,152 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:58:08,152 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:58:08,152 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 387
+2024-04-19 12:58:08,154 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:58:08,154 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:58:08,154 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:58:08,154 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:58:08,154 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 436
+2024-04-19 12:58:08,156 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:58:08,156 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:58:08,156 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:58:08,156 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:58:08,157 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 351
+2024-04-19 12:58:08,158 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:58:08,158 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:58:08,158 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:58:08,159 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:58:08,159 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 364
+2024-04-19 12:58:11,370 - root - INFO - ARI: 0.8478 | NMI: 0.7934
+2024-04-19 12:58:11,371 - root - INFO - Epoch: 18 | LR: 0.0010 | Loss 0.7423 | Val MaF1: 0.9424 (Best: 0.9424) | Test MaF1: 0.9272 (Best: 0.9272) | MiF1: 0.9312 (Best: 0.9312)
+2024-04-19 12:58:20,020 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:58:20,021 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:58:20,021 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:58:20,021 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:58:20,021 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 1189
+2024-04-19 12:58:20,025 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:58:20,025 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:58:20,025 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:58:20,025 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:58:20,025 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 2994
+2024-04-19 12:58:20,033 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:58:20,034 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:58:20,034 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:58:20,034 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:58:20,034 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 374
+2024-04-19 12:58:20,036 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:58:20,036 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:58:20,036 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:58:20,037 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:58:20,037 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 286
+2024-04-19 12:58:20,038 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:58:20,039 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:58:20,039 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:58:20,039 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:58:20,039 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 263
+2024-04-19 12:58:20,041 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:58:20,041 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:58:20,041 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:58:20,041 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:58:20,041 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 387
+2024-04-19 12:58:20,043 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:58:20,043 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:58:20,043 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:58:20,043 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:58:20,043 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 436
+2024-04-19 12:58:20,045 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:58:20,045 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:58:20,045 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:58:20,045 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:58:20,046 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 351
+2024-04-19 12:58:20,047 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:58:20,047 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:58:20,047 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:58:20,047 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:58:20,048 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 364
+2024-04-19 12:58:23,974 - root - INFO - ARI: 0.8589 | NMI: 0.8065
+2024-04-19 12:58:23,974 - root - INFO - Epoch: 19 | LR: 0.0010 | Loss 0.7175 | Val MaF1: 0.9372 (Best: 0.9372) | Test MaF1: 0.9367 (Best: 0.9367) | MiF1: 0.9410 (Best: 0.9410)
+2024-04-19 12:58:32,797 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:58:32,797 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:58:32,798 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:58:32,798 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:58:32,798 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 1189
+2024-04-19 12:58:32,801 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:58:32,801 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:58:32,801 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:58:32,802 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:58:32,802 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 2994
+2024-04-19 12:58:32,810 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:58:32,810 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:58:32,810 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:58:32,810 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:58:32,811 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 374
+2024-04-19 12:58:32,812 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:58:32,812 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:58:32,813 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:58:32,813 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:58:32,813 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 286
+2024-04-19 12:58:32,814 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:58:32,815 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:58:32,815 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:58:32,815 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:58:32,815 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 263
+2024-04-19 12:58:32,816 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:58:32,817 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:58:32,817 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:58:32,817 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:58:32,817 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 387
+2024-04-19 12:58:32,818 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:58:32,819 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:58:32,819 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:58:32,819 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:58:32,819 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 436
+2024-04-19 12:58:32,820 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:58:32,821 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:58:32,821 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:58:32,821 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:58:32,821 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 351
+2024-04-19 12:58:32,823 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:58:32,823 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:58:32,823 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:58:32,823 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:58:32,823 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 364
+2024-04-19 12:58:35,213 - root - INFO - ARI: 0.8624 | NMI: 0.8127
+2024-04-19 12:58:35,214 - root - INFO - Epoch: 20 | LR: 0.0009 | Loss 0.6951 | Val MaF1: 0.9337 (Best: 0.9337) | Test MaF1: 0.9428 (Best: 0.9428) | MiF1: 0.9484 (Best: 0.9484)
+2024-04-19 12:58:43,983 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:58:43,984 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:58:43,984 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:58:43,984 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:58:43,984 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 1189
+2024-04-19 12:58:43,987 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:58:43,987 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:58:43,987 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:58:43,987 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:58:43,988 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 2994
+2024-04-19 12:58:43,996 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:58:43,996 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:58:43,996 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:58:43,996 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:58:43,996 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 374
+2024-04-19 12:58:43,998 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:58:43,998 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:58:43,998 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:58:43,999 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:58:43,999 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 286
+2024-04-19 12:58:44,000 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:58:44,000 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:58:44,000 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:58:44,001 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:58:44,001 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 263
+2024-04-19 12:58:44,002 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:58:44,003 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:58:44,003 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:58:44,003 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:58:44,003 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 387
+2024-04-19 12:58:44,005 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:58:44,005 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:58:44,005 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:58:44,005 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:58:44,005 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 436
+2024-04-19 12:58:44,007 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:58:44,007 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:58:44,007 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:58:44,007 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:58:44,007 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 351
+2024-04-19 12:58:44,008 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:58:44,009 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:58:44,009 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:58:44,009 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:58:44,009 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 364
+2024-04-19 12:58:46,666 - root - INFO - ARI: 0.8612 | NMI: 0.8111
+2024-04-19 12:58:46,667 - root - INFO - Epoch: 21 | LR: 0.0009 | Loss 0.6803 | Val MaF1: 0.9381 (Best: 0.9381) | Test MaF1: 0.9459 (Best: 0.9459) | MiF1: 0.9509 (Best: 0.9509)
+2024-04-19 12:58:48,003 - root - INFO - Epoch: 22 | LR: 0.0009 | Loss 0.6647 | Val MaF1: 0.9351 (Best: 0.9381) | Test MaF1: 0.9450 (Best: 0.9459) | MiF1: 0.9484 (Best: 0.9509)
+2024-04-19 12:58:49,022 - root - INFO - Epoch: 23 | LR: 0.0008 | Loss 0.6534 | Val MaF1: 0.9351 (Best: 0.9381) | Test MaF1: 0.9404 (Best: 0.9459) | MiF1: 0.9435 (Best: 0.9509)
+2024-04-19 12:58:57,477 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:58:57,477 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:58:57,478 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:58:57,478 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:58:57,478 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 1189
+2024-04-19 12:58:57,481 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:58:57,481 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:58:57,481 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:58:57,481 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:58:57,482 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 2994
+2024-04-19 12:58:57,490 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:58:57,490 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:58:57,491 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:58:57,491 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:58:57,491 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 374
+2024-04-19 12:58:57,492 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:58:57,493 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:58:57,493 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:58:57,493 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:58:57,493 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 286
+2024-04-19 12:58:57,495 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:58:57,495 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:58:57,495 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:58:57,495 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:58:57,496 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 263
+2024-04-19 12:58:57,497 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:58:57,497 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:58:57,497 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:58:57,498 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:58:57,498 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 387
+2024-04-19 12:58:57,499 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:58:57,499 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:58:57,499 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:58:57,500 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:58:57,500 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 436
+2024-04-19 12:58:57,501 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:58:57,501 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:58:57,501 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:58:57,502 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:58:57,502 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 351
+2024-04-19 12:58:57,503 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:58:57,503 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:58:57,504 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:58:57,504 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:58:57,504 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 364
+2024-04-19 12:59:03,683 - root - INFO - ARI: 0.8648 | NMI: 0.8154
+2024-04-19 12:59:03,683 - root - INFO - Epoch: 24 | LR: 0.0008 | Loss 0.6449 | Val MaF1: 0.9384 (Best: 0.9384) | Test MaF1: 0.9500 (Best: 0.9500) | MiF1: 0.9533 (Best: 0.9533)
+2024-04-19 12:59:12,504 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:59:12,504 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:59:12,504 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:59:12,504 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:59:12,504 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 1189
+2024-04-19 12:59:12,507 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:59:12,508 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:59:12,508 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:59:12,508 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:59:12,508 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 2994
+2024-04-19 12:59:12,514 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:59:12,514 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:59:12,515 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:59:12,515 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:59:12,515 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 374
+2024-04-19 12:59:12,517 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:59:12,517 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:59:12,517 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:59:12,517 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:59:12,517 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 286
+2024-04-19 12:59:12,519 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:59:12,519 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:59:12,519 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:59:12,519 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:59:12,520 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 263
+2024-04-19 12:59:12,521 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:59:12,521 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:59:12,521 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:59:12,522 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:59:12,522 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 387
+2024-04-19 12:59:12,523 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:59:12,523 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:59:12,524 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:59:12,524 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:59:12,524 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 436
+2024-04-19 12:59:12,525 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:59:12,525 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:59:12,526 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:59:12,526 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:59:12,526 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 351
+2024-04-19 12:59:12,527 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:59:12,527 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:59:12,528 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:59:12,528 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:59:12,528 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 364
+2024-04-19 12:59:14,507 - root - INFO - ARI: 0.8689 | NMI: 0.8197
+2024-04-19 12:59:14,507 - root - INFO - Epoch: 25 | LR: 0.0008 | Loss 0.6370 | Val MaF1: 0.9358 (Best: 0.9358) | Test MaF1: 0.9577 (Best: 0.9577) | MiF1: 0.9607 (Best: 0.9607)
+2024-04-19 12:59:15,824 - root - INFO - Epoch: 26 | LR: 0.0007 | Loss 0.6288 | Val MaF1: 0.9409 (Best: 0.9358) | Test MaF1: 0.9548 (Best: 0.9577) | MiF1: 0.9582 (Best: 0.9607)
+2024-04-19 12:59:16,879 - root - INFO - Epoch: 27 | LR: 0.0007 | Loss 0.6236 | Val MaF1: 0.9437 (Best: 0.9358) | Test MaF1: 0.9548 (Best: 0.9577) | MiF1: 0.9582 (Best: 0.9607)
+2024-04-19 12:59:17,910 - root - INFO - Epoch: 28 | LR: 0.0007 | Loss 0.6190 | Val MaF1: 0.9437 (Best: 0.9358) | Test MaF1: 0.9575 (Best: 0.9577) | MiF1: 0.9607 (Best: 0.9607)
+2024-04-19 12:59:18,995 - root - INFO - Epoch: 29 | LR: 0.0006 | Loss 0.6144 | Val MaF1: 0.9437 (Best: 0.9358) | Test MaF1: 0.9575 (Best: 0.9577) | MiF1: 0.9607 (Best: 0.9607)
+2024-04-19 12:59:20,021 - root - INFO - Epoch: 30 | LR: 0.0006 | Loss 0.6098 | Val MaF1: 0.9437 (Best: 0.9358) | Test MaF1: 0.9549 (Best: 0.9577) | MiF1: 0.9582 (Best: 0.9607)
+2024-04-19 12:59:21,058 - root - INFO - Epoch: 31 | LR: 0.0005 | Loss 0.6063 | Val MaF1: 0.9437 (Best: 0.9358) | Test MaF1: 0.9551 (Best: 0.9577) | MiF1: 0.9582 (Best: 0.9607)
+2024-04-19 12:59:22,083 - root - INFO - Epoch: 32 | LR: 0.0005 | Loss 0.6030 | Val MaF1: 0.9463 (Best: 0.9358) | Test MaF1: 0.9501 (Best: 0.9577) | MiF1: 0.9533 (Best: 0.9607)
+2024-04-19 12:59:23,119 - root - INFO - Epoch: 33 | LR: 0.0004 | Loss 0.5999 | Val MaF1: 0.9463 (Best: 0.9358) | Test MaF1: 0.9501 (Best: 0.9577) | MiF1: 0.9533 (Best: 0.9607)
+2024-04-19 12:59:24,154 - root - INFO - Epoch: 34 | LR: 0.0004 | Loss 0.5986 | Val MaF1: 0.9493 (Best: 0.9358) | Test MaF1: 0.9496 (Best: 0.9577) | MiF1: 0.9533 (Best: 0.9607)
+2024-04-19 12:59:25,177 - root - INFO - Epoch: 35 | LR: 0.0003 | Loss 0.5960 | Val MaF1: 0.9493 (Best: 0.9358) | Test MaF1: 0.9496 (Best: 0.9577) | MiF1: 0.9533 (Best: 0.9607)
+2024-04-19 12:59:26,232 - root - INFO - Epoch: 36 | LR: 0.0003 | Loss 0.5947 | Val MaF1: 0.9493 (Best: 0.9358) | Test MaF1: 0.9496 (Best: 0.9577) | MiF1: 0.9533 (Best: 0.9607)
+2024-04-19 12:59:27,360 - root - INFO - Epoch: 37 | LR: 0.0003 | Loss 0.5924 | Val MaF1: 0.9521 (Best: 0.9358) | Test MaF1: 0.9496 (Best: 0.9577) | MiF1: 0.9533 (Best: 0.9607)
+2024-04-19 12:59:28,385 - root - INFO - Epoch: 38 | LR: 0.0002 | Loss 0.5914 | Val MaF1: 0.9521 (Best: 0.9358) | Test MaF1: 0.9523 (Best: 0.9577) | MiF1: 0.9558 (Best: 0.9607)
+2024-04-19 12:59:29,407 - root - INFO - Epoch: 39 | LR: 0.0002 | Loss 0.5902 | Val MaF1: 0.9491 (Best: 0.9358) | Test MaF1: 0.9523 (Best: 0.9577) | MiF1: 0.9558 (Best: 0.9607)
+2024-04-19 12:59:30,436 - root - INFO - Epoch: 40 | LR: 0.0002 | Loss 0.5892 | Val MaF1: 0.9520 (Best: 0.9358) | Test MaF1: 0.9523 (Best: 0.9577) | MiF1: 0.9558 (Best: 0.9607)
+2024-04-19 12:59:31,460 - root - INFO - Epoch: 41 | LR: 0.0001 | Loss 0.5881 | Val MaF1: 0.9520 (Best: 0.9358) | Test MaF1: 0.9523 (Best: 0.9577) | MiF1: 0.9558 (Best: 0.9607)
+2024-04-19 12:59:32,477 - root - INFO - Epoch: 42 | LR: 0.0001 | Loss 0.5877 | Val MaF1: 0.9491 (Best: 0.9358) | Test MaF1: 0.9523 (Best: 0.9577) | MiF1: 0.9558 (Best: 0.9607)
+2024-04-19 12:59:33,504 - root - INFO - Epoch: 43 | LR: 0.0001 | Loss 0.5871 | Val MaF1: 0.9491 (Best: 0.9358) | Test MaF1: 0.9523 (Best: 0.9577) | MiF1: 0.9558 (Best: 0.9607)
+2024-04-19 12:59:34,523 - root - INFO - Epoch: 44 | LR: 0.0000 | Loss 0.5866 | Val MaF1: 0.9491 (Best: 0.9358) | Test MaF1: 0.9523 (Best: 0.9577) | MiF1: 0.9558 (Best: 0.9607)
+2024-04-19 12:59:35,606 - root - INFO - Epoch: 45 | LR: 0.0000 | Loss 0.5863 | Val MaF1: 0.9491 (Best: 0.9358) | Test MaF1: 0.9523 (Best: 0.9577) | MiF1: 0.9558 (Best: 0.9607)
+2024-04-19 12:59:36,632 - root - INFO - Epoch: 46 | LR: 0.0000 | Loss 0.5862 | Val MaF1: 0.9491 (Best: 0.9358) | Test MaF1: 0.9523 (Best: 0.9577) | MiF1: 0.9558 (Best: 0.9607)
+2024-04-19 12:59:37,650 - root - INFO - Epoch: 47 | LR: 0.0000 | Loss 0.5856 | Val MaF1: 0.9491 (Best: 0.9358) | Test MaF1: 0.9523 (Best: 0.9577) | MiF1: 0.9558 (Best: 0.9607)
+2024-04-19 12:59:38,677 - root - INFO - Epoch: 48 | LR: 0.0000 | Loss 0.5860 | Val MaF1: 0.9491 (Best: 0.9358) | Test MaF1: 0.9523 (Best: 0.9577) | MiF1: 0.9558 (Best: 0.9607)
+2024-04-19 12:59:39,706 - root - INFO - Epoch: 49 | LR: 0.0000 | Loss 0.5860 | Val MaF1: 0.9491 (Best: 0.9358) | Test MaF1: 0.9523 (Best: 0.9577) | MiF1: 0.9558 (Best: 0.9607)
+2024-04-19 12:59:40,732 - root - INFO - Epoch: 50 | LR: 0.0000 | Loss 0.5862 | Val MaF1: 0.9491 (Best: 0.9358) | Test MaF1: 0.9523 (Best: 0.9577) | MiF1: 0.9558 (Best: 0.9607)
+2024-04-19 12:59:40,732 - root - INFO - Best Epoch: 25 | Train MiF1: 0.9676,  MaF1: 0.9652 | Val MiF1: 0.9407, MaF1: 0.9358 | Test MaF1: 0.9577, MiF1: 0.9607
+2024-04-19 12:59:48,077 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:59:48,077 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:59:48,078 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:59:48,078 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:59:48,078 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 1189
+2024-04-19 12:59:48,081 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:59:48,081 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:59:48,082 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:59:48,082 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:59:48,082 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 2994
+2024-04-19 12:59:48,089 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:59:48,090 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:59:48,090 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:59:48,090 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:59:48,090 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 374
+2024-04-19 12:59:48,092 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:59:48,092 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:59:48,092 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:59:48,093 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:59:48,093 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 286
+2024-04-19 12:59:48,094 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:59:48,094 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:59:48,094 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:59:48,095 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:59:48,095 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 263
+2024-04-19 12:59:48,096 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:59:48,096 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:59:48,097 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:59:48,097 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:59:48,097 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 387
+2024-04-19 12:59:48,099 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:59:48,099 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:59:48,099 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:59:48,099 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:59:48,099 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 436
+2024-04-19 12:59:48,101 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:59:48,101 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:59:48,101 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:59:48,101 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:59:48,102 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 351
+2024-04-19 12:59:48,103 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-04-19 12:59:48,103 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-04-19 12:59:48,103 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-04-19 12:59:48,103 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-04-19 12:59:48,103 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 78 364
+2024-04-19 12:59:54,355 - root - INFO - ARI: 0.8689 | NMI: 0.8197

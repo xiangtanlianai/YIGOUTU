@@ -1,0 +1,4 @@
+2024-04-22 23:10:17,337 - root - INFO - {'prefix': 'SR-HGN', 'gpu': 0, 'feat': 1, 'seed': 0, 'verbose': 1, 'train_split': 0.2, 'val_split': 0.3, 'num_type_heads': 4, 'num_node_heads': 4, 'hidden_dim': 64, 'clip': 1.0, 'num_layers': 7, 'alpha': 0.5, 'epochs': 40, 'dataset': 'dblp', 'input_dim': 256, 'aggregate': 'concat', 'iscuda': True, 'cluster': True, 'max_lr': 0.001, 'weight_decay': 1e-05, 'heads': 6, 'han_heads': [4], 'hh_heads': 3, 'dropout': 0.2}
+2024-04-22 23:10:20,536 - root - INFO - Training SR-HGN with #param: 5062634
+2024-04-22 23:10:26,397 - root - INFO - ARI: 0.0256 | NMI: 0.0258
+2024-04-22 23:10:26,397 - root - INFO - Epoch: 1 | LR: 0.0001 | Loss 1.3825 | Val MaF1: 0.2331 (Best: 0.2331) | Test MaF1: 0.2299 (Best: 0.2299) | MiF1: 0.3603 (Best: 0.3603)

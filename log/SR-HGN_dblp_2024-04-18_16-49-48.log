@@ -1,0 +1,93 @@
+2024-04-18 16:49:48,736 - root - INFO - {'prefix': 'SR-HGN', 'gpu': 0, 'feat': 1, 'seed': 0, 'verbose': 1, 'train_split': 0.2, 'val_split': 0.3, 'num_type_heads': 4, 'num_node_heads': 4, 'hidden_dim': 16, 'clip': 1.0, 'num_layers': 3, 'alpha': 0.5, 'epochs': 50, 'dataset': 'dblp', 'input_dim': 256, 'aggregate': 'concat', 'iscuda': True, 'cluster': True, 'max_lr': 0.001, 'weight_decay': 1e-05, 'heads': 8, 'han_heads': [6], 'hh_heads': 3, 'dropout': 0.2}
+2024-04-18 16:49:51,721 - root - INFO - Training SR-HGN with #param: 1099486
+2024-04-18 16:49:56,594 - root - INFO - ARI: 0.0280 | NMI: 0.0362
+2024-04-18 16:49:56,595 - root - INFO - Epoch: 1 | LR: 0.0001 | Loss 1.3884 | Val MaF1: 0.1862 (Best: 0.1862) | Test MaF1: 0.1891 (Best: 0.1891) | MiF1: 0.2821 (Best: 0.2821)
+2024-04-18 16:49:58,264 - root - INFO - ARI: 0.0280 | NMI: 0.0365
+2024-04-18 16:49:58,265 - root - INFO - Epoch: 2 | LR: 0.0001 | Loss 1.3852 | Val MaF1: 0.2034 (Best: 0.2034) | Test MaF1: 0.2019 (Best: 0.2019) | MiF1: 0.2959 (Best: 0.2959)
+2024-04-18 16:49:59,960 - root - INFO - ARI: 0.0277 | NMI: 0.0362
+2024-04-18 16:49:59,960 - root - INFO - Epoch: 3 | LR: 0.0001 | Loss 1.3848 | Val MaF1: 0.2072 (Best: 0.2072) | Test MaF1: 0.2147 (Best: 0.2147) | MiF1: 0.3181 (Best: 0.3181)
+2024-04-18 16:50:01,599 - root - INFO - ARI: 0.0272 | NMI: 0.0360
+2024-04-18 16:50:01,599 - root - INFO - Epoch: 4 | LR: 0.0002 | Loss 1.3840 | Val MaF1: 0.2209 (Best: 0.2209) | Test MaF1: 0.2317 (Best: 0.2317) | MiF1: 0.3462 (Best: 0.3462)
+2024-04-18 16:50:03,257 - root - INFO - ARI: 0.0282 | NMI: 0.0399
+2024-04-18 16:50:03,257 - root - INFO - Epoch: 5 | LR: 0.0003 | Loss 1.3806 | Val MaF1: 0.2331 (Best: 0.2331) | Test MaF1: 0.2497 (Best: 0.2497) | MiF1: 0.3822 (Best: 0.3822)
+2024-04-18 16:50:04,277 - root - INFO - Epoch: 6 | LR: 0.0004 | Loss 1.3761 | Val MaF1: 0.2599 (Best: 0.2331) | Test MaF1: 0.2456 (Best: 0.2497) | MiF1: 0.3836 (Best: 0.3822)
+2024-04-18 16:50:05,218 - root - INFO - Epoch: 7 | LR: 0.0005 | Loss 1.3680 | Val MaF1: 0.2734 (Best: 0.2331) | Test MaF1: 0.2489 (Best: 0.2497) | MiF1: 0.3815 (Best: 0.3822)
+2024-04-18 16:50:06,819 - root - INFO - ARI: 0.0370 | NMI: 0.0495
+2024-04-18 16:50:06,820 - root - INFO - Epoch: 8 | LR: 0.0006 | Loss 1.3593 | Val MaF1: 0.2635 (Best: 0.2635) | Test MaF1: 0.2517 (Best: 0.2517) | MiF1: 0.3755 (Best: 0.3755)
+2024-04-18 16:50:08,531 - root - INFO - ARI: 0.0432 | NMI: 0.0543
+2024-04-18 16:50:08,532 - root - INFO - Epoch: 9 | LR: 0.0007 | Loss 1.3454 | Val MaF1: 0.2551 (Best: 0.2551) | Test MaF1: 0.2658 (Best: 0.2658) | MiF1: 0.3875 (Best: 0.3875)
+2024-04-18 16:50:10,199 - root - INFO - ARI: 0.0569 | NMI: 0.0666
+2024-04-18 16:50:10,200 - root - INFO - Epoch: 10 | LR: 0.0008 | Loss 1.3387 | Val MaF1: 0.2933 (Best: 0.2933) | Test MaF1: 0.2863 (Best: 0.2863) | MiF1: 0.4089 (Best: 0.4089)
+2024-04-18 16:50:11,889 - root - INFO - ARI: 0.0778 | NMI: 0.0856
+2024-04-18 16:50:11,890 - root - INFO - Epoch: 11 | LR: 0.0009 | Loss 1.3275 | Val MaF1: 0.3416 (Best: 0.3416) | Test MaF1: 0.3249 (Best: 0.3249) | MiF1: 0.4487 (Best: 0.4487)
+2024-04-18 16:50:13,554 - root - INFO - ARI: 0.1219 | NMI: 0.1205
+2024-04-18 16:50:13,554 - root - INFO - Epoch: 12 | LR: 0.0010 | Loss 1.3142 | Val MaF1: 0.3691 (Best: 0.3691) | Test MaF1: 0.3748 (Best: 0.3748) | MiF1: 0.4995 (Best: 0.4995)
+2024-04-18 16:50:15,227 - root - INFO - ARI: 0.2031 | NMI: 0.1887
+2024-04-18 16:50:15,227 - root - INFO - Epoch: 13 | LR: 0.0010 | Loss 1.2911 | Val MaF1: 0.4171 (Best: 0.4171) | Test MaF1: 0.4300 (Best: 0.4300) | MiF1: 0.5572 (Best: 0.5572)
+2024-04-18 16:50:16,904 - root - INFO - ARI: 0.2620 | NMI: 0.2447
+2024-04-18 16:50:16,904 - root - INFO - Epoch: 14 | LR: 0.0010 | Loss 1.2759 | Val MaF1: 0.4906 (Best: 0.4906) | Test MaF1: 0.4969 (Best: 0.4969) | MiF1: 0.6178 (Best: 0.6178)
+2024-04-18 16:50:18,584 - root - INFO - ARI: 0.3113 | NMI: 0.2952
+2024-04-18 16:50:18,584 - root - INFO - Epoch: 15 | LR: 0.0010 | Loss 1.2517 | Val MaF1: 0.5484 (Best: 0.5484) | Test MaF1: 0.5460 (Best: 0.5460) | MiF1: 0.6650 (Best: 0.6650)
+2024-04-18 16:50:20,305 - root - INFO - ARI: 0.3584 | NMI: 0.3449
+2024-04-18 16:50:20,305 - root - INFO - Epoch: 16 | LR: 0.0010 | Loss 1.2264 | Val MaF1: 0.6065 (Best: 0.6065) | Test MaF1: 0.5877 (Best: 0.5877) | MiF1: 0.7080 (Best: 0.7080)
+2024-04-18 16:50:21,959 - root - INFO - ARI: 0.3923 | NMI: 0.3876
+2024-04-18 16:50:21,959 - root - INFO - Epoch: 17 | LR: 0.0010 | Loss 1.2054 | Val MaF1: 0.6456 (Best: 0.6456) | Test MaF1: 0.6228 (Best: 0.6228) | MiF1: 0.7436 (Best: 0.7436)
+2024-04-18 16:50:23,680 - root - INFO - ARI: 0.4242 | NMI: 0.4255
+2024-04-18 16:50:23,680 - root - INFO - Epoch: 18 | LR: 0.0010 | Loss 1.1741 | Val MaF1: 0.6640 (Best: 0.6640) | Test MaF1: 0.6729 (Best: 0.6729) | MiF1: 0.7721 (Best: 0.7721)
+2024-04-18 16:50:25,354 - root - INFO - ARI: 0.4662 | NMI: 0.4558
+2024-04-18 16:50:25,354 - root - INFO - Epoch: 19 | LR: 0.0010 | Loss 1.1400 | Val MaF1: 0.7235 (Best: 0.7235) | Test MaF1: 0.7314 (Best: 0.7314) | MiF1: 0.8027 (Best: 0.8027)
+2024-04-18 16:50:27,042 - root - INFO - ARI: 0.5108 | NMI: 0.4909
+2024-04-18 16:50:27,042 - root - INFO - Epoch: 20 | LR: 0.0009 | Loss 1.1105 | Val MaF1: 0.7838 (Best: 0.7838) | Test MaF1: 0.7805 (Best: 0.7805) | MiF1: 0.8302 (Best: 0.8302)
+2024-04-18 16:50:28,679 - root - INFO - ARI: 0.5466 | NMI: 0.5177
+2024-04-18 16:50:28,679 - root - INFO - Epoch: 21 | LR: 0.0009 | Loss 1.0807 | Val MaF1: 0.8309 (Best: 0.8309) | Test MaF1: 0.8211 (Best: 0.8211) | MiF1: 0.8549 (Best: 0.8549)
+2024-04-18 16:50:30,311 - root - INFO - ARI: 0.5804 | NMI: 0.5403
+2024-04-18 16:50:30,311 - root - INFO - Epoch: 22 | LR: 0.0009 | Loss 1.0472 | Val MaF1: 0.8563 (Best: 0.8563) | Test MaF1: 0.8410 (Best: 0.8410) | MiF1: 0.8676 (Best: 0.8676)
+2024-04-18 16:50:31,999 - root - INFO - ARI: 0.6038 | NMI: 0.5589
+2024-04-18 16:50:31,999 - root - INFO - Epoch: 23 | LR: 0.0008 | Loss 1.0119 | Val MaF1: 0.8748 (Best: 0.8748) | Test MaF1: 0.8606 (Best: 0.8606) | MiF1: 0.8820 (Best: 0.8820)
+2024-04-18 16:50:33,623 - root - INFO - ARI: 0.6311 | NMI: 0.5767
+2024-04-18 16:50:33,624 - root - INFO - Epoch: 24 | LR: 0.0008 | Loss 0.9914 | Val MaF1: 0.8806 (Best: 0.8806) | Test MaF1: 0.8720 (Best: 0.8720) | MiF1: 0.8901 (Best: 0.8901)
+2024-04-18 16:50:35,297 - root - INFO - ARI: 0.6587 | NMI: 0.6003
+2024-04-18 16:50:35,298 - root - INFO - Epoch: 25 | LR: 0.0008 | Loss 0.9669 | Val MaF1: 0.8980 (Best: 0.8980) | Test MaF1: 0.8817 (Best: 0.8817) | MiF1: 0.8968 (Best: 0.8968)
+2024-04-18 16:50:36,925 - root - INFO - ARI: 0.6740 | NMI: 0.6128
+2024-04-18 16:50:36,925 - root - INFO - Epoch: 26 | LR: 0.0007 | Loss 0.9415 | Val MaF1: 0.9064 (Best: 0.9064) | Test MaF1: 0.8881 (Best: 0.8881) | MiF1: 0.9014 (Best: 0.9014)
+2024-04-18 16:50:38,596 - root - INFO - ARI: 0.6848 | NMI: 0.6215
+2024-04-18 16:50:38,596 - root - INFO - Epoch: 27 | LR: 0.0007 | Loss 0.9204 | Val MaF1: 0.9071 (Best: 0.9071) | Test MaF1: 0.8908 (Best: 0.8908) | MiF1: 0.9035 (Best: 0.9035)
+2024-04-18 16:50:40,227 - root - INFO - ARI: 0.6910 | NMI: 0.6260
+2024-04-18 16:50:40,227 - root - INFO - Epoch: 28 | LR: 0.0007 | Loss 0.8988 | Val MaF1: 0.9104 (Best: 0.9104) | Test MaF1: 0.8959 (Best: 0.8959) | MiF1: 0.9074 (Best: 0.9074)
+2024-04-18 16:50:41,858 - root - INFO - ARI: 0.7009 | NMI: 0.6355
+2024-04-18 16:50:41,858 - root - INFO - Epoch: 29 | LR: 0.0006 | Loss 0.8842 | Val MaF1: 0.9171 (Best: 0.9171) | Test MaF1: 0.9031 (Best: 0.9031) | MiF1: 0.9130 (Best: 0.9130)
+2024-04-18 16:50:43,540 - root - INFO - ARI: 0.7009 | NMI: 0.6358
+2024-04-18 16:50:43,540 - root - INFO - Epoch: 30 | LR: 0.0006 | Loss 0.8708 | Val MaF1: 0.9181 (Best: 0.9181) | Test MaF1: 0.9087 (Best: 0.9087) | MiF1: 0.9176 (Best: 0.9176)
+2024-04-18 16:50:45,176 - root - INFO - ARI: 0.7007 | NMI: 0.6362
+2024-04-18 16:50:45,176 - root - INFO - Epoch: 31 | LR: 0.0005 | Loss 0.8518 | Val MaF1: 0.9238 (Best: 0.9238) | Test MaF1: 0.9102 (Best: 0.9102) | MiF1: 0.9186 (Best: 0.9186)
+2024-04-18 16:50:46,785 - root - INFO - ARI: 0.7027 | NMI: 0.6395
+2024-04-18 16:50:46,785 - root - INFO - Epoch: 32 | LR: 0.0005 | Loss 0.8414 | Val MaF1: 0.9208 (Best: 0.9208) | Test MaF1: 0.9123 (Best: 0.9123) | MiF1: 0.9204 (Best: 0.9204)
+2024-04-18 16:50:48,461 - root - INFO - ARI: 0.7046 | NMI: 0.6421
+2024-04-18 16:50:48,461 - root - INFO - Epoch: 33 | LR: 0.0004 | Loss 0.8296 | Val MaF1: 0.9208 (Best: 0.9208) | Test MaF1: 0.9133 (Best: 0.9133) | MiF1: 0.9215 (Best: 0.9215)
+2024-04-18 16:50:49,433 - root - INFO - Epoch: 34 | LR: 0.0004 | Loss 0.8175 | Val MaF1: 0.9229 (Best: 0.9208) | Test MaF1: 0.9133 (Best: 0.9133) | MiF1: 0.9215 (Best: 0.9215)
+2024-04-18 16:50:51,028 - root - INFO - ARI: 0.7086 | NMI: 0.6471
+2024-04-18 16:50:51,028 - root - INFO - Epoch: 35 | LR: 0.0003 | Loss 0.8070 | Val MaF1: 0.9229 (Best: 0.9229) | Test MaF1: 0.9141 (Best: 0.9141) | MiF1: 0.9222 (Best: 0.9222)
+2024-04-18 16:50:52,689 - root - INFO - ARI: 0.7055 | NMI: 0.6459
+2024-04-18 16:50:52,689 - root - INFO - Epoch: 36 | LR: 0.0003 | Loss 0.8015 | Val MaF1: 0.9252 (Best: 0.9252) | Test MaF1: 0.9165 (Best: 0.9165) | MiF1: 0.9239 (Best: 0.9239)
+2024-04-18 16:50:54,323 - root - INFO - ARI: 0.7051 | NMI: 0.6464
+2024-04-18 16:50:54,324 - root - INFO - Epoch: 37 | LR: 0.0003 | Loss 0.7923 | Val MaF1: 0.9228 (Best: 0.9228) | Test MaF1: 0.9177 (Best: 0.9177) | MiF1: 0.9250 (Best: 0.9250)
+2024-04-18 16:50:55,983 - root - INFO - ARI: 0.7058 | NMI: 0.6469
+2024-04-18 16:50:55,984 - root - INFO - Epoch: 38 | LR: 0.0002 | Loss 0.7871 | Val MaF1: 0.9259 (Best: 0.9259) | Test MaF1: 0.9188 (Best: 0.9188) | MiF1: 0.9260 (Best: 0.9260)
+2024-04-18 16:50:57,605 - root - INFO - ARI: 0.7061 | NMI: 0.6470
+2024-04-18 16:50:57,606 - root - INFO - Epoch: 39 | LR: 0.0002 | Loss 0.7792 | Val MaF1: 0.9281 (Best: 0.9281) | Test MaF1: 0.9213 (Best: 0.9213) | MiF1: 0.9281 (Best: 0.9281)
+2024-04-18 16:50:59,291 - root - INFO - ARI: 0.7082 | NMI: 0.6502
+2024-04-18 16:50:59,291 - root - INFO - Epoch: 40 | LR: 0.0002 | Loss 0.7773 | Val MaF1: 0.9281 (Best: 0.9281) | Test MaF1: 0.9235 (Best: 0.9235) | MiF1: 0.9299 (Best: 0.9299)
+2024-04-18 16:51:00,933 - root - INFO - ARI: 0.7099 | NMI: 0.6517
+2024-04-18 16:51:00,933 - root - INFO - Epoch: 41 | LR: 0.0001 | Loss 0.7702 | Val MaF1: 0.9281 (Best: 0.9281) | Test MaF1: 0.9245 (Best: 0.9245) | MiF1: 0.9306 (Best: 0.9306)
+2024-04-18 16:51:02,570 - root - INFO - ARI: 0.7091 | NMI: 0.6510
+2024-04-18 16:51:02,570 - root - INFO - Epoch: 42 | LR: 0.0001 | Loss 0.7667 | Val MaF1: 0.9313 (Best: 0.9313) | Test MaF1: 0.9253 (Best: 0.9253) | MiF1: 0.9313 (Best: 0.9313)
+2024-04-18 16:51:03,591 - root - INFO - Epoch: 43 | LR: 0.0001 | Loss 0.7704 | Val MaF1: 0.9313 (Best: 0.9313) | Test MaF1: 0.9245 (Best: 0.9253) | MiF1: 0.9306 (Best: 0.9313)
+2024-04-18 16:51:04,552 - root - INFO - Epoch: 44 | LR: 0.0000 | Loss 0.7677 | Val MaF1: 0.9313 (Best: 0.9313) | Test MaF1: 0.9246 (Best: 0.9253) | MiF1: 0.9306 (Best: 0.9313)
+2024-04-18 16:51:05,537 - root - INFO - Epoch: 45 | LR: 0.0000 | Loss 0.7617 | Val MaF1: 0.9313 (Best: 0.9313) | Test MaF1: 0.9246 (Best: 0.9253) | MiF1: 0.9306 (Best: 0.9313)
+2024-04-18 16:51:06,505 - root - INFO - Epoch: 46 | LR: 0.0000 | Loss 0.7645 | Val MaF1: 0.9313 (Best: 0.9313) | Test MaF1: 0.9246 (Best: 0.9253) | MiF1: 0.9306 (Best: 0.9313)
+2024-04-18 16:51:07,476 - root - INFO - Epoch: 47 | LR: 0.0000 | Loss 0.7622 | Val MaF1: 0.9313 (Best: 0.9313) | Test MaF1: 0.9246 (Best: 0.9253) | MiF1: 0.9306 (Best: 0.9313)
+2024-04-18 16:51:08,420 - root - INFO - Epoch: 48 | LR: 0.0000 | Loss 0.7655 | Val MaF1: 0.9313 (Best: 0.9313) | Test MaF1: 0.9246 (Best: 0.9253) | MiF1: 0.9306 (Best: 0.9313)
+2024-04-18 16:51:09,375 - root - INFO - Epoch: 49 | LR: 0.0000 | Loss 0.7618 | Val MaF1: 0.9313 (Best: 0.9313) | Test MaF1: 0.9246 (Best: 0.9253) | MiF1: 0.9306 (Best: 0.9313)
+2024-04-18 16:51:10,382 - root - INFO - Epoch: 50 | LR: 0.0000 | Loss 0.7635 | Val MaF1: 0.9313 (Best: 0.9313) | Test MaF1: 0.9246 (Best: 0.9253) | MiF1: 0.9306 (Best: 0.9313)
+2024-04-18 16:51:10,382 - root - INFO - Best Epoch: 42 | Train MiF1: 0.9656,  MaF1: 0.9623 | Val MiF1: 0.9383, MaF1: 0.9313 | Test MaF1: 0.9253, MiF1: 0.9313
+2024-04-18 16:51:10,926 - root - INFO - ARI: 0.7091 | NMI: 0.6510
