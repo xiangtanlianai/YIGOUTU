@@ -1,4 +1,4 @@
-# SR-HGN
+# Graph Flow
 
 This repo is for source code of Expert Systems with Applications paper "**SR-HGN: Semantic-and Relation-Aware Heterogeneous Graph Neural Network**". [paper](https://www.sciencedirect.com/science/article/abs/pii/S0957417423004840)
 
@@ -19,7 +19,7 @@ We utilize three benchmark datasets in the paper to perform node classification 
 * DBLP
 * IMDB
 
-You can create the "data" folder in the root directory, then put the datasets in. Like "/SRHGN/data/acm/...". 
+
  
 ## How to run
 
@@ -41,7 +41,3 @@ python main.py --dataset acm
   publisher={Elsevier}
 }
 ```
-
-## Contact
-
-If you have any questions, don't hesitate to contact me (zwang43@nd.edu, zehongwang0414@gmail.com)! 
