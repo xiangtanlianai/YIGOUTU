@@ -1,7 +1,5 @@
 # Graph Flow
 
-This repo is for source code of Expert Systems with Applications paper "**SR-HGN: Semantic-and Relation-Aware Heterogeneous Graph Neural Network**". [paper](https://www.sciencedirect.com/science/article/abs/pii/S0957417423004840)
-
 ## Environment Settings
 
 * python==3.8.0
